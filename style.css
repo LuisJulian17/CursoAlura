@@ -126,6 +126,11 @@ form label, form legend{
     transform: scale(1.2);
     /*transform: rotate(360deg);*/
 }
+.centrarcont{
+    margin: auto;
+    width: 50%;
+    margin-top: 30px;
+}
 
 table{
     margin: 40px 40px;
@@ -296,12 +301,32 @@ whidth: cal(40% - (26px *4) esto hace que la imagen crezca o se haga mas pequeñ
     nav{
         position: static;
     }
-
+    nav a{
+        font-size: 20px;
+    }
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
     }
 
     .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+    .input-padron{
+        padding: 10px 0px;
+        width: 100% ;
+    }
+    .centrarcont{
+        width: 90%;
+    }
+    .enviar{
+        font-size: 80%;
+    }
+    .productos{
+        display: inline-block; 
+        width: auto;
+        margin: 0 auto;
+    }
+    .img-respon{
         width: 100%;
     }
 }
@@ -314,7 +339,9 @@ whidth: cal(40% - (26px *4) esto hace que la imagen crezca o se haga mas pequeñ
     nav{
         position:absolute;
     }
-
+    nav a{
+        font-size: 20px;
+    }
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
     }
@@ -324,6 +351,24 @@ whidth: cal(40% - (26px *4) esto hace que la imagen crezca o se haga mas pequeñ
     }
     .imagen-diferenciales{
         width: 60%;
+    }
+    .input-padron{
+        padding: 10px 0px;
+        width: 100% ;
+    }
+    .centrarcont{
+        width: 90%;
+    }
+    .enviar{
+        font-size: 80%;
+    }
+    .productos{
+        display: inline-block; 
+        width: auto;
+        margin: 0 auto;
+    }
+    .img-respon{
+        width: 100%;
     }
 }
 
@@ -335,6 +380,9 @@ whidth: cal(40% - (26px *4) esto hace que la imagen crezca o se haga mas pequeñ
     nav{
         position:static;
     }
+    nav a{
+        font-size: 20px;
+    }
 
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
@@ -346,9 +394,28 @@ whidth: cal(40% - (26px *4) esto hace que la imagen crezca o se haga mas pequeñ
     .imagen-diferenciales{
         width: 60%;
     }
-}
-.centrarcont{
-    margin: auto;
-    width: 50%;
-    margin-top: 30px;
+    .input-padron{
+        padding: 10px 0px;
+        width: 100% ;
+    }
+    .centrarcont{
+        width: 90%;
+    }
+    .enviar{
+        font-size: 80%;
+    }
+    .productos{
+        display: inline-block; 
+        width: auto;
+        margin: 0 auto;
+    }
+    .img-respon{
+        width: 100%;
+    }
+    .productos li{
+        display:block;
+        text-align: center;
+        width: 90%;
+        margin-block: 30px;
+    }
 }
