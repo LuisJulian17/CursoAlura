@@ -98,10 +98,9 @@ form label, form legend{
 }
 
 .input-padron {
-    display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 100%;
 }
 
 .checkbox{
@@ -346,4 +345,8 @@ whidth: cal(40% - (26px *4) esto hace que la imagen crezca o se haga mas pequeñ
     .imagen-diferenciales{
         width: 60%;
     }
+}
+.centrarcont{
+    margin: auto;
+    width: 50%;
 }
